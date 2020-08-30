@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes</title>
+    <style>
+      h1 {
+        color: #885df1;
+        font-size: 48px;
+        text-decoration: underline;
+        font: weight 200;
+        text-align: center;
+      }
+      h2 {
+        color: #272044;
+        font: weight 200;
+        text-align: center;
+        font-weight: normal;
+      }
+      ul {
+        /*list-style: none;*/
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+      }
+
+      li {
+        display: inline-block;
+        padding: 20px;
+      }
+      /*ul li::before {
+      \2022 is the CSS Code/unicode for a disc
+        content: "\2022";
+        color: black;
+        display: inline-block;
+        width: 1em;
+        margin-left: -0.9em;
+        font-weight: bold;
+        font-size: 1.1rem;
+      }*/
+
+      body {
+        background-color: #f6f2fe;
+      }
+
+      button {
+        color: #f6f2fe;
+        background: #885df1;
+        display: block;
+        margin: 0 auto;
+        padding: 15px 20px;
+        font-size: 18px;
+        border: 1px solid #885df1;
+        border-radius: 30px;
+        box-shadow: 2px 2px 2px 2px #ad9d9d;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: #a2d5f2;
+        color: #885df1;
+        cursor: pointer;
+      }
+
+      .students {
+        /*text-decoration: underline;*/
+        color: blue;
+        cursor: pointer;
+      }
+
+      .students:hover {
+        background: gray;
+      }
+
+      .workshops {
+        /*text-decoration: underline;*/
+        color: red;
+        cursor: pointer;
+      }
+
+      .workshops:hover {
+        background: gray;
+      }
+      .stories {
+        /*text-decoration: underline;*/
+        color: green;
+        cursor: pointer;
+      }
+      .stories:hover {
+        background: gray;
+      }
+
+      .info {
+        text-align: center;
+      }
+
+      .woman {
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SheCodes</h1>
+    <h2>Coding Workshop</h2>
+    <button>Apply Now</button>
+
+    <ul>
+      <li class="students">
+        <a href="https://www.shecodes.io/students"> </a>
+        Coders
+      </li>
+      <li class="workshops">
+        <a href="https://www.shecodes.io/workshops"> </a>
+        Courses
+      </li>
+      <li class="stories">
+        <a href="https://www.shecodes.io/stories"> </a>
+        Stories
+      </li>
+    </ul>
+
+    <hr />
+    <p class="info">
+      <strong> More info </strong>
+    </p>
+    <img
+      class="woman"
+      src="https://images.hellogiggles.com/uploads/2018/03/24043120/black-woman-using-computer-e1521916370994.jpg"
+      alt="Woman Coder"
+      width="300"
+    />
+  </body>
+</html>
